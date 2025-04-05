@@ -77,16 +77,18 @@ const products = [
   },
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/6-piece-non-stick-baking-set.webp",
-    name: "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    image: "images/products/spiderverse-miles-spider-man-action-figure.jpg",
+    name: "Spider Man Miles Morales Action Figure",
     rating: {
       stars: 4.5,
       count: 175
     },
-    priceCents: 3499,
+    priceCents: 37099,
     keywords: [
-      "kitchen",
-      "cookware"
+      "spiderverse",
+      "spider man",
+      "miles morales",
+      "action figures"
     ]
   },
   {
@@ -612,18 +614,18 @@ const products = [
   },
   {
     id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/products/floral-mixing-bowl-set.jpg",
-    name: "10-Piece Mixing Bowl Set with Lids - Floral",
+    image: "images/products/luffy-action-figure.jpg",
+    name: "One Piece: Luffy Action Figure",
     rating: {
-      stars: 5,
-      count: 679
+      stars: 4.5,
+      count: 779
     },
-    priceCents: 3899,
+    priceCents: 380099,
     keywords: [
-      "mixing bowls",
-      "baking",
-      "cookware",
-      "kitchen"
+      "action figures",
+      "one piece",
+      "anime",
+      "luffy"
     ]
   },
   {
