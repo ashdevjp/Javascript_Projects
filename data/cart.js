@@ -14,13 +14,10 @@ if (!cart) {
 
 }
 
-
-
-
 function saveToStorage(){
    localStorage.setItem('cart', JSON.stringify(cart));
 }
-
+ 
 
 export function addToCart(productId, quantity) {
    let matchingItem;
@@ -84,7 +81,7 @@ export function updateQuantity(productId, newQuantity) {
    saveToStorage();
  }
 
- export function updateDeliveryoption(productId,deliveryOptionId){
+ export function updateDeliveryOption(productId,deliveryOptionId){
    let matchingItem;
 
    cart.forEach((cartItem) => {
