@@ -9,7 +9,12 @@ import { products, getProduct } from "../../data/products.js";
 import { formatCurrency } from "../utils/money.js";
 import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
 import {deliveryOptions, getDeliveryOption} from '../../data/deliveryOptions.js';
+<<<<<<< HEAD
 import {renderPaymentSummary} from './paymentSummary.js';
+=======
+
+
+>>>>>>> 9593b05d9ef52c2b316d8af4a788fb469ec52a80
 
 
 
@@ -24,6 +29,10 @@ export function renderOrderSummary(){
    cart.forEach((cartItem) => {
       const productId = cartItem.productId;
    
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 9593b05d9ef52c2b316d8af4a788fb469ec52a80
       const matchingProduct = getProduct(productId);
 
       const deliveryOptionId = cartItem.deliveryOptionId;

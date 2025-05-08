@@ -4,17 +4,27 @@ import { getDeliveryOption } from '../../data/deliveryOptions.js';
 import {formatCurrency} from '../utils/money.js';
 
 export function renderPaymentSummary(){
+<<<<<<< HEAD
    
+=======
+>>>>>>> 9593b05d9ef52c2b316d8af4a788fb469ec52a80
  let productPriceCents = 0;
  let shippingPriceCents = 0;
 
    cart.forEach((cartItem) => {
       const product = getProduct(cartItem.productId);
+<<<<<<< HEAD
       productPriceCents +=  product.priceCents * cartItem.quantity;
 
       const deliveryOption = getDeliveryOption(cartItem.deliveryOptionId);
       shippingPriceCents += deliveryOption.priceCents;
 
+=======
+      productPriceCents+=  product.priceCents * cartItem.quantity;
+
+      const deliveryOption = getDeliveryOption(cartItem.deliveryoptionId);
+      shippingPriceCents += deliveryOption.priceCents;
+>>>>>>> 9593b05d9ef52c2b316d8af4a788fb469ec52a80
    });
 
    const totalBeforeTaxCents = productPriceCents + shippingPriceCents;
@@ -68,8 +78,13 @@ export function renderPaymentSummary(){
 
       `;
 
+<<<<<<< HEAD
       document.querySelector('.js-payment-summary').innerHTML = paymentSummaryHTML;
 
 
+=======
+      document.querySelector('.js-payment-summary')
+      .innerHTML = paymentSummaryHTML;
+>>>>>>> 9593b05d9ef52c2b316d8af4a788fb469ec52a80
 
       }
