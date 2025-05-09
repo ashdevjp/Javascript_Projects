@@ -4,7 +4,7 @@ console.log('test suite: formatCurrency');
 
 console.log('converts cents to dollars');
 
-if (formatCurrency(100) === '1.00') {
+if (formatCurrency(2095) === '20.95') {
   console.log('passed');
 }
 else {
@@ -23,7 +23,7 @@ else {
 
 console.log('rounds up to the nearest cent');
 
-if (formatCurrency(2000.5) === '20.05') {
+if (formatCurrency(2000.5) === '20.01') {
   console.log('passed'); 
 }
 else {
