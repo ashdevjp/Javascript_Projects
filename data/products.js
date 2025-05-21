@@ -658,7 +658,10 @@ export const products = [
       "coffeemakers",
       "kitchen",
       "appliances"
-    ]
+    ],
+    type: 'appliance',
+    instructionsLink: 'images/appliance-instructions.png',
+    warrantyLink: 'images/appliance-warranty.png'
   },
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
